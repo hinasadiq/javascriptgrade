@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Teko', sans-serif;
+    background-color: #38ada9; 
+}
+section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.main-card {
+    background-color: #4b4b4b;
+    height: auto;
+    width: 100%;
+    max-width: 48%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 80px;
+    border-radius: 30px;
+    padding-bottom: 80px;
+}
+.card-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 23px;
+    border-bottom: 1px solid #ffffff6b;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    margin-top: 8px;
+}
+h1 {
+    color: #38ada9;
+    font-size: 40px;
+}
+h1::before {
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 7px;
+    background-color: #38ada9;
+    z-index: 11;
+    margin-left: -19px;
+    margin-top: -6px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.card-btn {
+    border: none;
+    color: #38ada9;
+    margin-top: 6.5px;
+    cursor: pointer;
+}
+
+#demo {
+    position: absolute;
+    left: 28%;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.card-inner-btn {
+    border: none;
+    color: #38ada9;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
